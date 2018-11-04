@@ -31,7 +31,11 @@ public class StaticQueueCircular {
 			return 0;
 		}
 		if(ult >= pri) {
-			return Math.abs(((fila.length - ((int)fila.length/2)) - ult) - 2);
+			if(fila.length%2 == 0) {
+				return Math.abs(((fila.length - ((int)fila.length/2)) - (ult-1)) - 2);
+			}else {
+				return Math.abs(((fila.length - ((int)fila.length/2)) - ult) - 2);
+			}
 		}else {
 			return ((fila.length - (((int)fila.length/2) - 1)) + (ult));
 		}

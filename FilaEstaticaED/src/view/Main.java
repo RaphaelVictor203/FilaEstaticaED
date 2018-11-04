@@ -59,7 +59,7 @@ public class Main {
 //		System.out.println(fila1.showFront(1));
 
 		
-//		StaticQueueCircular fila = new StaticQueueCircular(5);
+//		StaticQueueCircular fila = new StaticQueueCircular(6);
 //		fila.enfileirar('C');
 //		System.out.println(fila.getSize());
 //		fila.enfileirar('D');
@@ -70,6 +70,14 @@ public class Main {
 //		System.out.println(fila.getSize());
 //		fila.enfileirar('G');
 //		System.out.println(fila.getSize());
+//		fila.enfileirar('H');
+//		System.out.println(fila.getSize());
+//		for(int i=0; i<fila.fila.length; i++) {
+//			System.out.println(fila.fila[i]);
+//		}
+//		System.out.println("------------------------------");
+//		fila.desenfileirar();
+//		System.out.println("------------------------------");
 //		for(int i=0; i<fila.fila.length; i++) {
 //			System.out.println(fila.fila[i]);
 //		}
